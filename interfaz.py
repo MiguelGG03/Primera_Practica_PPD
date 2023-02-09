@@ -1,7 +1,15 @@
 from tkinter import *
 
-# Creamos la raíz
+# Configuración de la raíz
 root = Tk()
+root.title("Roomba")
+root.resizable(1,1)
 
-# Comenzamos el bucle de aplicación, es como un while True
+frame = Frame(root, width=480, height=320)
+frame.pack(fill='both', expand=1)
+frame.config(bd=25)
+
+
+
+# Finalmente bucle de la aplicación
 root.mainloop()  
