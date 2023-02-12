@@ -29,8 +29,7 @@ class Ventana(Frame):
                              to=100) 
  
         # Creamos una lista de widgets sobre la que hacemos un bucle ... 
-        for widget in [self.CTexto, self.CCursor, self.FTexto, 
-                       self.FCursor]: 
+        for widget in [self.CTexto, self.CCursor, self.FTexto, self.FCursor]: 
             # El widget actual está "pegado" a la izquierda 
             # en la ventana de la aplicación. 
             widget.pack(side=LEFT) 
