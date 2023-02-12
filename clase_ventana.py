@@ -3,7 +3,7 @@ from tkinter import *
 class Ventana(Frame):
 
     def __init__(self, master=None):
-        super(Ventana,self).__init__(master,width=3200,height=2400,bg='black')
+        super(Ventana,self).__init__(master,width=320,height=240)
         self.master.title("Roomba")
         # Sin el self.pack() no se muestran los cambios realizados
         self.pack()
