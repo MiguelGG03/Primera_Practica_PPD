@@ -1,3 +1,5 @@
+from tkinter import Frame
+
 #divido la habitacion en zonas
 
 zona1 = {"largo":500,"ancho":150}
@@ -11,3 +13,6 @@ zona_total.append(zona1)
 zona_total.append(zona2)
 zona_total.append(zona3)
 zona_total.append(zona4)
+
+ventana= Frame( width=2000, height=240)
+ventana.mainloop()
