@@ -32,10 +32,6 @@ class MainWindow(QMainWindow):
         # Uso de un generador para agregar fácilmente los widgets al layout. 
         widgets = [self.operando1, self.operacion, self.operando2, QLabel("="), self.resultado] 
         [diseño.addWidget(widget) for widget in widgets] 
-
-        # 
-        # Declaración de los widgets: ver sección precedente 
-        # 
  
         # La clase QSpinBox emite una señal valueChanged(int) 
         # cuando se modifica el valor mostrado en el spinbox. 
