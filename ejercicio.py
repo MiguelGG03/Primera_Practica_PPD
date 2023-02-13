@@ -1,17 +1,19 @@
 from tkinter import *
 
 # Creamos la raiz de nuestra aplicación
-root=Tk()
+'''root=Tk()
 root.geometry('560x690')
-root.config(bg='grey')
-habitacion = Frame(root, width=500, height=630)
+root.config(bg='grey')'''
+habitacion = Tk()
+habitacion.geometry('500x630')
 habitacion.config(borderwidth=30)
 habitacion.config(relief="solid")
 habitacion.config(bg="white")
-habitacion.pack(side=TOP)
-mueble = Frame(root, width=90,height=260)
+#habitacion.pack(side=TOP)
+mueble = Frame(habitacion, width=90,height=260)
 mueble.config(bg='lightblue')
 mueble.place(width=146,height=350)
+mueble.pack(side=LEFT)
 mueble.pack()
 
 
@@ -30,4 +32,4 @@ zona_total.append(zona3)
 zona_total.append(zona4)
 
 ventana= Frame( width=2000, height=240)"""
-root.mainloop()
+habitacion.mainloop()
