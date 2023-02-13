@@ -1,4 +1,9 @@
-from tkinter import Frame
+from tkinter import *
+
+# Creamos la raiz de nuestra aplicación
+root=Tk(width=560, height=690)
+root.config(bg='grey')
+habitacion = Frame(root, width=500, height=630)
 
 #divido la habitacion en zonas
 
