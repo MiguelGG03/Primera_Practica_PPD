@@ -1,11 +1,16 @@
 from tkinter import *
 
 # Creamos la raiz de nuestra aplicación
-root=Tk(width=560, height=690)
+root=Tk()
+root.geometry('560x690')
 root.config(bg='grey')
 habitacion = Frame(root, width=500, height=630)
+habitacion.config(borderwidth=30)
+habitacion.config(relief="solid")
+habitacion.config(bg="white")
+habitacion.pack(side=TOP)
 
-#divido la habitacion en zonas
+"""#divido la habitacion en zonas
 
 zona1 = {"largo":500,"ancho":150}
 zona2 = {"largo":480,"ancho":101}
@@ -19,5 +24,5 @@ zona_total.append(zona2)
 zona_total.append(zona3)
 zona_total.append(zona4)
 
-ventana= Frame( width=2000, height=240)
-ventana.mainloop()
+ventana= Frame( width=2000, height=240)"""
+root.mainloop()
