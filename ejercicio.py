@@ -9,6 +9,11 @@ habitacion.config(borderwidth=30)
 habitacion.config(relief="solid")
 habitacion.config(bg="white")
 habitacion.pack(side=TOP)
+mueble = Frame(root, width=90,height=260)
+mueble.config(bg='lightblue')
+mueble.place(width=146,height=350)
+mueble.pack()
+
 
 """#divido la habitacion en zonas
 
