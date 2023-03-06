@@ -96,5 +96,8 @@ if __name__=='__main__':
 
 La interfaz gráfica de la roomba es la siguiente
 
+![roomba](https://user-images.githubusercontent.com/91721552/223159685-73216fda-5249-4925-ab82-42084b37dfbb.PNG)
 
 Los resultados de tiempo son los siguientes
+
+![tiempos](https://user-images.githubusercontent.com/91721552/223159811-90fc46fe-4ef4-4991-8c1d-98e9a5f736a0.PNG)
