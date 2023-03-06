@@ -91,3 +91,10 @@ def main():
 if __name__=='__main__':
     main()
 ```
+
+# Resultados
+
+La interfaz gráfica de la roomba es la siguiente
+
+
+Los resultados de tiempo son los siguientes
